@@ -1,3 +1,5 @@
+@import "./css/homepage.css";
+
 * {
   box-sizing: border-box;
 }
@@ -12,45 +14,16 @@ body {
   margin: 0px auto;
 }
 
-.section {
-  background: linear-gradient(to right, blue, pink);
+.header {
+  background: linear-gradient(50deg, #4b3862 15%, #D45B78);
 }
 
-.image-header {
-  width: 50px;
-  height: 50px;
-  margin-right: auto;
+.content {
+  background: linear-gradient(to bottom, #4b3862, #D45B78);
+
 }
 
-.button-header {
-  width: 150px;
-  margin-left: auto;
-}
+.footer {
+  background: linear-gradient(to top, #4b3862, #D45B78);
 
-.image-octopus {
-  width: 1200px;
-  margin: 0px auto;
-}
-
-.octopus {
-  width: 100%;
-}
-
-.main-content {
-  text-align: center;
-}
-
-.bubble-one {
-  width: 65px;
-  height: 65px;
-}
-
-.bubble-two {
-  width: 35px;
-  height: 35px;
-}
-
-.bubble-three {
-  width: 18px;
-  height: 18px;
 }
