@@ -1,16 +1,15 @@
 @import "./css/homepage.css";
+@import "./css/content.css";
 
 * {
   box-sizing: border-box;
-}
-
-body {
   margin: 0px;
   padding: 0px;
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  min-height: 100vh;
   margin: 0px auto;
 }
 
@@ -19,11 +18,5 @@ body {
 }
 
 .content {
-  background: linear-gradient(to bottom, #4b3862, #D45B78);
-
-}
-
-.footer {
-  background: linear-gradient(to top, #4b3862, #D45B78);
-
+  background: linear-gradient(180deg, #4F3963 -2%, #764469 31%, #5E3E66 76%, #2C2142 94%);
 }
