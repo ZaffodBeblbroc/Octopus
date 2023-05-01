@@ -19,18 +19,23 @@
 
 .list-content-title{
   margin: 0px 0px 15px 0px;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
 }
 
 .list-content-paragraph {
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .list-content-title::before {
   display: flex;
   justify-content: flex-end;
   content: "01";
-  font-size: 60px;
+  font-size: 90px;
   font-weight: 900;
   position: absolute;
   text-align: right;
@@ -79,4 +84,60 @@
   grid-column-end: 6;
   grid-row-start: 7;
   grid-row-end: 10;
+}
+
+.video-title {
+  max-width: 652px;
+  margin-left: 100px;
+  font-size: 64px;  
+  line-height: 96px;
+  color: #ffffff;
+}
+
+.video {
+  max-width: 1920px;
+  min-height: 668px;
+  background-color: dimgrey;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-footer {
+  min-width: 100px;
+
+}
+
+.title-footer {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.p-footer {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.background-footer-one {
+  padding: 70px;
+  max-width: 500px;
+  background-image: url(../images/footer/Фон1\ 1.png);
+}
+
+.background-footer-two {
+  padding: 70px;
+  max-width: 500px;
+  background-image: url(../images/footer/Фон2\ 1.png);
+  background-size: 100%;
+}
+
+.button-footer {
+  
 }

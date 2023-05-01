@@ -10,7 +10,7 @@
 }
 
 .image-octopus {
-  width: 1000px;
+  max-width: 1305px;
   margin: 0px auto;
 }
 
@@ -29,7 +29,17 @@
 }
 
 .callback {
-  margin: 0px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #ffffff;
+}
+
+.title-callback {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
 }
 
 .image-bubbles {

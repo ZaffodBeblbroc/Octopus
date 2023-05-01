@@ -5,10 +5,17 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: Roboto;
+}
+
+@font-face {      
+  font-family: 'Roboto';
+  src:url('./fonts/Roboto-Medium.ttf');
+
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1920px;
   min-height: 100vh;
   margin: 0px auto;
 }
