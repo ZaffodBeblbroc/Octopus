@@ -1,5 +1,6 @@
 @import "./css/homepage.css";
 @import "./css/content.css";
+@import "./css/images.css";
 
 * {
   box-sizing: border-box;
@@ -22,6 +23,7 @@
 }
 
 .header {
+  min-height: 100vh;
   background: linear-gradient(50deg, #4b3862 15%, #D45B78);
 }
 

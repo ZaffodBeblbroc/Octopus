@@ -1,16 +1,31 @@
-.image-header {
-  width: 50px;
-  height: 50px;
-  margin-right: auto;
+.header-line {
+  display: flex;
+  justify-content: space-between;
 }
 
 .button-header {
-  width: 150px;
-  margin-left: auto;
+  margin: 30px 100px 0px 0px;
+}
+
+.button-header-enter {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0px 100px;
+  border: #ffffff;
+  background-color: rgb(255, 255, 255, 0) ;
+}
+
+.button-header-registration {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 5px 25px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255, 0) ;
 }
 
 .image-octopus {
-  max-width: 1305px;
+  max-width: 1205px;
   margin: 0px auto;
 }
 
@@ -24,22 +39,37 @@
 }
 
 .main-content {
-  text-align: center;
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .callback {
   font-weight: 700;
   font-size: 64px;
-  line-height: 75px;
+  margin: 30px 0px 20px 0px;
   color: #ffffff;
 }
 
 .title-callback {
+  max-width: 60vw;
+  text-align: center;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
   color: #ffffff;
+}
+
+.button-callback {
+  font-weight: 400;
+  padding: 10px 40px;
+  margin-top: 40px;
+  font-size: 36px;
+  text-transform: uppercase;
+  border: 1px solid  rgb(255, 255, 255, 0);
+  border-radius: 5px;
+  background-color: rgba(215, 92, 120, 1);
+  box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, 0.3)
 }
 
 .image-bubbles {

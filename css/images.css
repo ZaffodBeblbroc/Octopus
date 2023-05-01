@@ -1,0 +1,41 @@
+
+.image-header {
+  width: 120px;
+  margin: 30px 0px 0px 100px;
+}
+
+.image-callmar {
+  width: 100%;
+}
+
+.image-diver {  
+  max-width: 580px;
+}
+
+.diver {
+  width: 100%;
+}
+
+.image-submarine {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: 100px;
+  rotate: -10deg;
+  right: 5vw;
+  max-width: 240px;
+}
+
+.submarine {
+  width: 100%;
+}
+
+.image-fish {
+  margin-top: 40px;
+  max-width: 180px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+.fish {
+  width: 100%;
+}

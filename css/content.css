@@ -2,7 +2,7 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns:100px 1fr 1fr 1fr 1fr 100px;
-  grid-template-rows:repeat(9, 50px);
+  grid-template-rows:repeat(13, 90px);
 }
 
 .list-content-item {
@@ -12,7 +12,8 @@
   list-style-type:none;
   position: relative;
   overflow: hidden;
-  padding: 0px 15px 0px 80px;
+  padding: 0px 100px 0px 100px;
+  box-shadow: 5px 15px 20px 5px rgba(0, 0, 0, 0.3);
   background: rgba(82, 58, 100, 1);
 }
 
@@ -21,7 +22,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-
 }
 
 .list-content-paragraph {
@@ -39,8 +39,8 @@
   position: absolute;
   text-align: right;
   width: 55px;
-  left: -3px;
-  top: 30px;
+  left: 30px;
+  top: 90px;
   color:  rgba(148, 75, 110, 1);
 }
 
@@ -56,33 +56,47 @@
   content: "04";
 }
 
+.diver-one {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  margin-left: auto;
+}
+
 .item-one {
   grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 6;
 }
 
 .item-two {
   grid-column-start: 4;
   grid-column-end: 6;
-  grid-row-start: 3;
-  grid-row-end: 6;
-
+  grid-row-start: 5;
+  grid-row-end: 8;
 }
 
 .item-three {
   grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 5;
-  grid-row-end: 8;
+  grid-row-start: 7;
+  grid-row-end: 10;
 }
 
 .item-four {
   grid-column-start: 4;
   grid-column-end: 6;
-  grid-row-start: 7;
-  grid-row-end: 10;
+  grid-row-start: 9;
+  grid-row-end: 12;
+}
+
+.diver-two {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 10;
+  grid-row-end: 13;
 }
 
 .video-title {
@@ -100,12 +114,15 @@
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 8vw;
 }
 
 .container-footer {
   display: flex;
   flex-direction: column;
+  margin: 50px 0px;
+  box-shadow: 0px 20px 40px 30px rgba(0, 0, 0, 0.2);
 }
 
 .title-footer {
@@ -138,9 +155,10 @@
 .button-footer {
   font-weight: 400;
   font-size: 36px;
-  padding: 0px 20px;
+  padding: 5px 20px;
   margin-top: 80px;
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
   background-color: rgb(255, 255, 255, 0) ;
 }
 
