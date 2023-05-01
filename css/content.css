@@ -13,7 +13,6 @@
   position: relative;
   overflow: hidden;
   padding: 0px 15px 0px 80px;
-  color: rgb(255, 255, 255);
   background: rgba(82, 58, 100, 1);
 }
 
@@ -91,7 +90,6 @@
   margin-left: 100px;
   font-size: 64px;  
   line-height: 96px;
-  color: #ffffff;
 }
 
 .video {
@@ -106,8 +104,8 @@
 }
 
 .container-footer {
-  min-width: 100px;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .title-footer {
@@ -115,29 +113,41 @@
   font-weight: 700;
   font-size: 44px;
   line-height: 72px;
-  color: #ffffff;
 }
 
 .p-footer {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  color: #ffffff;
 }
 
 .background-footer-one {
   padding: 70px;
   max-width: 500px;
   background-image: url(../images/footer/Фон1\ 1.png);
+  background-size: cover;
 }
 
 .background-footer-two {
   padding: 70px;
   max-width: 500px;
   background-image: url(../images/footer/Фон2\ 1.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .button-footer {
-  
+  font-weight: 400;
+  font-size: 36px;
+  padding: 0px 20px;
+  margin-top: 80px;
+  border: 2px solid #ffffff;
+  background-color: rgb(255, 255, 255, 0) ;
+}
+
+.image-footer {
+  max-width: 1920px;
+}
+
+.bottom {
+  width: 100%;
 }
