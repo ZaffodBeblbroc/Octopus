@@ -4,13 +4,16 @@
 }
 
 .button-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15vw;
   margin: 30px 100px 0px 0px;
 }
 
 .button-header-enter {
   font-weight: 400;
   font-size: 18px;
-  margin: 0px 100px;
   border: #ffffff;
   background-color: rgb(255, 255, 255, 0) ;
 }
@@ -25,7 +28,6 @@
 }
 
 .image-octopus {
-  max-width: 1205px;
   margin: 0px auto;
 }
 
@@ -42,6 +44,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 .callback {

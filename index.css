@@ -1,6 +1,12 @@
 @import "./css/homepage.css";
 @import "./css/content.css";
 @import "./css/images.css";
+@import "./css/animation.css";
+
+@font-face {      
+  font-family: 'Roboto';
+  src:url('./fonts/Roboto-Medium.ttf');
+}
 
 * {
   box-sizing: border-box;
@@ -10,19 +16,14 @@
   font-family: Roboto;
 }
 
-@font-face {      
-  font-family: 'Roboto';
-  src:url('./fonts/Roboto-Medium.ttf');
-
-}
-
 .container {
-  max-width: 1920px;
-  min-height: 100vh;
-  margin: 0px auto;
+ margin: 0px auto;
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   min-height: 100vh;
   background: linear-gradient(50deg, #4b3862 15%, #D45B78);
 }
