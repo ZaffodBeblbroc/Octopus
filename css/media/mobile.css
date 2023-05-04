@@ -1,10 +1,56 @@
 .header-line {
-  display: block;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-header {
+  width: 50px;
+  margin: 0px;
+}
+
+.image-callmar {
+  width: 100%;
+}
+
+.menu {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
 }
 
 .button-header {
-  justify-content: space-around;
-  width: 100vw;
+  display:none;
+  margin: 0px;  
+  text-align: center;
+}
+
+.menu:hover + .button-header{
+  display: block;
+}
+
+.menu:hover {
+  display: none;
+}
+
+.button-header:hover {
+  display: block; 
+}
+
+.button-header-enter,
+.button-header-registration {
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  margin: 2px;
+  padding: 5px 10px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255, 0) ;
+
+}
+
+.octopus {
+  width: 100%;
 }
 
 .callback {
@@ -23,7 +69,12 @@
 }
 
 .content-title {
-  display: none;
+  display: block;
+  padding: 50px;
+  height: 160px;
+  font-size:24px;  
+  line-height: 36px;
+  text-align: center;
 }
 
 .list-content,
@@ -32,13 +83,30 @@
   flex-direction: column;
 }
 
+.list-content-item {
+  padding: 40px 75px 40px 75px;
+}
+
 .list-content-paragraph {
   font-size: 14px;
   line-height: 21px;
 }
 
+.list-content-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.list-content-title::before {
+font-size: 64px;
+left: 5px;
+top: 30px;
+color:  rgba(148, 75, 110, 1);
+}
+
 .video-title {
-  margin-left: 0px;
+  margin: 30px 0px;
   font-size:24px;  
   line-height: 36px;
   text-align: center;
@@ -77,3 +145,17 @@
   display: none;
 }
 
+.image-fish {
+  position: absolute;
+  margin-top: 20px;
+  max-width: 100px;
+  margin-left: 200px;
+}
+
+.image-footer {
+  overflow: hidden;
+}
+
+.bottom {
+  width:700px;
+}

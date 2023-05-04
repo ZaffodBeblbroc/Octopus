@@ -27,11 +27,11 @@
   flex-direction: column;
   justify-content: space-around;
   min-height: 100vh;
-  background: linear-gradient(50deg, #4b3862 15%, #D45B78);
+  background: linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
 }
 
 .content {
-  background: linear-gradient(180deg, #4F3963 -2%, #764469 31%, #5E3E66 76%, #2C2142 94%);
+  background: linear-gradient(178.71deg, #4F3963 -3.68%, #764469 6.45%, #5E3E66 76.09%, #2C2142 94.17%);
 }
 
 .content-title {

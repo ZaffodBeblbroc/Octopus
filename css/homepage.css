@@ -7,11 +7,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 15vw;
   margin: 30px 100px 0px 0px;
 }
 
 .button-header-enter {
+  margin-right: 30px;
   font-weight: 400;
   font-size: 18px;
   border: #ffffff;
@@ -25,14 +25,6 @@
   border: 2px solid #ffffff;
   border-radius: 3px;
   background-color: rgb(255, 255, 255, 0) ;
-}
-
-.image-octopus {
-  margin: 0px auto;
-}
-
-.octopus {
-  width: 100%;
 }
 
 .tittle {
@@ -64,10 +56,9 @@
 }
 
 .button-callback {
-  width: 362px;
   height: 75px;
   padding: 10px 40px;
-  margin-top: 40px;
+  margin: 40px;
   font-weight: 400;  
   font-size: 36px;
   text-transform: uppercase;
@@ -75,23 +66,4 @@
   border-radius: 5px;
   background-color: rgba(215, 92, 120, 1);
   box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, 0.3)
-}
-
-.image-bubbles {
-  width: 100px;
-}
-
-.bubble-one {
-  width: 65px;
-  height: 65px;
-}
-
-.bubble-two {
-  width: 35px;
-  height: 35px;
-}
-
-.bubble-three {
-  width: 18px;
-  height: 18px;
 }

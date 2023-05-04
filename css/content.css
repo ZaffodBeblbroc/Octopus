@@ -107,9 +107,18 @@
 }
 
 .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 100vw;
   min-height: 668px;
   background-color: dimgrey;
+}
+
+.video-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
@@ -162,10 +171,3 @@
   background-color: rgb(255, 255, 255, 0) ;
 }
 
-.image-footer {
-  max-width: 100vw;
-}
-
-.bottom {
-  width: 100%;
-}
