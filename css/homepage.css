@@ -45,6 +45,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  text-align: center;
 }
 
 .callback {
@@ -56,7 +57,6 @@
 
 .title-callback {
   max-width: 60vw;
-  text-align: center;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -64,9 +64,11 @@
 }
 
 .button-callback {
-  font-weight: 400;
+  width: 362px;
+  height: 75px;
   padding: 10px 40px;
   margin-top: 40px;
+  font-weight: 400;  
   font-size: 36px;
   text-transform: uppercase;
   border: 1px solid  rgb(255, 255, 255, 0);
@@ -77,7 +79,6 @@
 
 .image-bubbles {
   width: 100px;
-
 }
 
 .bubble-one {
