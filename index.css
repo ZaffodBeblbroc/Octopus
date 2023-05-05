@@ -3,7 +3,7 @@
 @import "./css/images.css";
 @import "./css/animation.css";
 @import url(./css/media/mobile.css) screen and (max-width: 500px);
-@import url(./css/media/qwe.css) screen and (min-width: 501px) and (max-width: 800px);
+@import url(./css/media/qwe.css) screen and (min-width: 501px) and (max-width: 1200px);
 
 @font-face {      
   font-family: 'Roboto';

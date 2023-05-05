@@ -1,10 +1,14 @@
 .header-line {
-  justify-content: space-around;
+  display: grid;
   align-items: center;
+  grid-template-columns:70px 1fr 70px;  
+  grid-template-rows: 90px;
 }
 
 .image-header {
-  width: 50px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 70px;
   margin: 0px;
 }
 
@@ -13,6 +17,9 @@
 }
 
 .menu {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  justify-items: start;
   width: 50px;
   height: 50px;
   background-color: aqua;
@@ -24,16 +31,14 @@
   text-align: center;
 }
 
-.menu:hover + .button-header{
+.menu:hover + .button-header, .button-header:hover{  
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-items: stretch;
+  justify-items: stretch;
   display: block;
-}
-
-.menu:hover {
-  display: none;
-}
-
-.button-header:hover {
-  display: block; 
 }
 
 .button-header-enter,
@@ -46,7 +51,6 @@
   border: 2px solid #ffffff;
   border-radius: 3px;
   background-color: rgb(255, 255, 255, 0) ;
-
 }
 
 .octopus {
