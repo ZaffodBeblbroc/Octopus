@@ -1,4 +1,3 @@
-
 .image-header {
   width: 120px;
   margin: 30px 0px 0px 100px;
@@ -14,30 +13,6 @@
 
 .octopus {
   width: 70vw;
-}
-
-.image-bubbles {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 100px;
-  height: 400px;
-}
-
-.bubble-one {
-  width: 65px;
-  height: 65px;
-}
-
-.bubble-two {
-  width: 35px;
-  height: 35px;
-}
-
-.bubble-three {
-  width: 18px;
-  height: 18px;
 }
 
 .image-diver {  
@@ -62,7 +37,7 @@
 }
 
 .image-video-play {
-  position: absolute;
+  width: 15vw;
 }
 
 .image-fish {

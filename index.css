@@ -1,9 +1,9 @@
 @import "./css/homepage.css";
 @import "./css/content.css";
 @import "./css/images.css";
-@import "./css/animation.css";
+@import "./css/bubble.css";
 @import url(./css/media/mobile.css) screen and (max-width: 500px);
-@import url(./css/media/qwe.css) screen and (min-width: 501px) and (max-width: 1200px);
+@import url(./css/media/adaptive.css) screen and (min-width: 501px) and (max-width: 1200px);
 
 @font-face {      
   font-family: 'Roboto';

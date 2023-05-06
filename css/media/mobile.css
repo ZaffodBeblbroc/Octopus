@@ -1,3 +1,7 @@
+.header {
+  min-height: 0px;
+}
+
 .header-line {
   display: grid;
   align-items: center;
@@ -14,15 +18,24 @@
 
 .image-callmar {
   width: 100%;
+  margin-left: 20px;
 }
 
 .menu {
   grid-column-start: 3;
   grid-column-end: 4;
-  justify-items: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   width: 50px;
   height: 50px;
-  background-color: aqua;
+}
+
+.rectangle {
+  width: 45px;
+  height: 12px;
+  background-color: rgb(255, 255, 255);
 }
 
 .button-header {
@@ -58,7 +71,7 @@
 }
 
 .callback {
-  width: 300px;
+  max-width: 300px;
   height: 60px;
   font-size: 24px;
 }
@@ -66,10 +79,41 @@
 .title-callback {
   font-size: 14px;
   line-height: 21px;
+  z-index: 5;
 }
 
 .button-callback {
+  margin: 40px 10px;
   font-size: 24px;
+}
+
+.tittle {
+  align-items: center;
+}
+
+.left { 
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns:30px 30px;
+  grid-template-rows:repeat(3, 30px);
+  position: absolute;
+  left: 40px;
+  z-index: 2;
+}
+
+.bubble-large {
+  width: 50px;
+  height: 50px;
+}
+
+.bubble-middle {
+  width: 25px;
+  height: 25px;
+}
+
+.bubble-small {
+  width: 12px;
+  height: 12px;
 }
 
 .content-title {
@@ -85,6 +129,11 @@
 .footer {
   display: flex;
   flex-direction: column;
+}
+
+.content-title h2{
+  font-size: 24px;
+  font-weight: 400;  
 }
 
 .list-content-item {
@@ -103,11 +152,11 @@
 }
 
 .list-content-title::before {
-font-size: 64px;
-left: 5px;
-top: 30px;
-color:  rgba(148, 75, 110, 1);
-}
+ font-size: 64px;
+ left: 5px;
+ top: 30px;
+ color:  rgba(148, 75, 110, 1);
+ }
 
 .video-title {
   margin: 30px 0px;
@@ -121,11 +170,20 @@ color:  rgba(148, 75, 110, 1);
   background-color: dimgrey;
 }
 
+
+.image-video-play {
+  width: 25vw;
+}
+
 .container-footer {
   margin: 10px 10px;
   text-align: center;
 }
 
+.background-footer-one,
+.background-footer-two {
+  padding: 50px;
+}
 
 .title-footer {
   font-weight: 700;
@@ -144,8 +202,15 @@ color:  rgba(148, 75, 110, 1);
 }
 
 .diver, 
-.image-bubbles,
-.submarine {
+.submarine,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve,
+.thirteen,
+.right {
   display: none;
 }
 
