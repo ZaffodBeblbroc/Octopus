@@ -1,0 +1,17 @@
+.button-header-enter:hover,
+.button-header-registration:hover,
+.button-footer:hover {
+  color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  transition-duration: 1s;
+  transform: scale(1.1);
+}
+
+.button-callback:hover {
+  text-transform: uppercase;
+  border: 1px solid  rgb(255, 255, 255, 0);
+  border-radius: 5px;
+  background-color: rgba(255, 92, 110, 1);
+  box-shadow: 0px 15px 20px 15px rgba(0, 0, 0, 0.4);
+  transition-duration: 2s;
+}
