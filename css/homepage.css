@@ -11,6 +11,7 @@
 }
 
 .button-header-enter {
+  text-decoration: none;
   margin-right: 30px;
   font-weight: 400;
   font-size: 18px;
@@ -19,6 +20,7 @@
 }
 
 .button-header-registration {
+  text-decoration: none;
   font-weight: 400;
   font-size: 18px;
   padding: 5px 25px;
