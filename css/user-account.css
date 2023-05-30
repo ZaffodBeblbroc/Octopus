@@ -1,6 +1,18 @@
+@font-face {      
+  font-family: 'Roboto';
+  src:url('../fonts/Roboto-Medium.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+
 .enter {
-  width: 500px;
-  height: 500px;
+  width: 100vw;
+  height: 100vh;
   margin: 0px auto;
   background-color: rgb(43, 226, 186);
 }
